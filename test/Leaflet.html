@@ -48,6 +48,7 @@
 
   L.control.layers({}, { Buildings: osmb }).addTo(map);
 
+  //addGeoJSONTiles is not right.
   osmb.addGeoJSONTiles(
     'https://{s}.data.osmbuildings.org/0.2/anonymous/tile/{z}/{x}/{y}.json',
     {
